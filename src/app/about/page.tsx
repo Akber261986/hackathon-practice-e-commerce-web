@@ -60,14 +60,14 @@ const about = () => {
             <div className="w-20 h-20 rounded-full bg-gray-400 group-hover:bg-[#E07575] flex items-center justify-center">
               <div className="w-14 h-14 rounded-full bg-black group-hover:bg-white flex items-center justify-center">
                 <Image
-                  src="/Catagories/sale-w.png"
+                  src="/Catagories/Sale-w.png"
                   alt="shop"
                   width={40}
                   height={40}
                   className="group-hover:hidden"
                 />
                 <Image
-                  src="/Catagories/sale.png"
+                  src="/Catagories/Sale.png"
                   alt="sale"
                   width={40}
                   height={40}

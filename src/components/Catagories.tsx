@@ -94,14 +94,14 @@ const Catagories = () => {
                 </div>
                 <div className="group hover:bg-[#DB4444] hover:border-none flex flex-col items-center justify-center gap-4 border border-[#7D8184] rounded-md w-[170px] h-36">
                     <Image
-                    src={"/Catagories/HeadPhone.png"}
+                    src={"/Catagories/Headphone.png"}
                     alt="HeadPhone"
                     width={56}
                     height={56}
                     className="group-hover:hidden"
                     />
                     <Image
-                    src={"/Catagories/HeadPhone-w.png"}
+                    src={"/Catagories/Headphone-w.png"}
                     alt="HeadPhone"
                     width={56}
                     height={56}

@@ -70,7 +70,7 @@ export default function Header() {
           )}
         </Link>
         <Link href="/cart" className="relative flex items-center">
-          <Image src={"/icons/cart.svg"} alt="cart" width={24} height={24} />
+          <Image src={"/icons/Cart.svg"} alt="cart" width={24} height={24} />
           {totalCartItems > 0 && (
             <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
               {totalCartItems}
