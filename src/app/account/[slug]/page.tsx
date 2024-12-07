@@ -51,7 +51,7 @@ const productDetails = () => {
           <div className="w-[400px] ">
             <h1 className="text-2xl font-semibold">Havic HV G-92 Gamepad</h1>
             <p className="space-x-2">
-              <span className="text-yellow-400">
+              <span className="text-yellow-400 text-xl">
                 {"★".repeat(4)}
                 {"☆".repeat(1)}
               </span>
@@ -112,7 +112,7 @@ const productDetails = () => {
             </Button>
             <div className="w-10 h-10 border-2 border-gray-400 flex items-center justify-center rounded-lg">
               <Image
-                src={"/icons/wishlist.svg"}
+                src={"/icons/Wishlist.svg"}
                 alt="product1"
                 width={24}
                 height={24}

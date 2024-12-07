@@ -46,7 +46,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"wislist"}
                   width={20}
                   height={80}
@@ -81,10 +81,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(1)}
+                  {"☆".repeat(4)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (35)`}</span>
               </p>
             </div>
           </div>
@@ -95,7 +99,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"view"}
                   width={20}
                   height={80}
@@ -130,10 +134,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(4)}
+                  {"☆".repeat(1)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (65)`}</span>
               </p>
             </div>
           </div>
@@ -144,7 +152,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"view"}
                   width={20}
                   height={80}
@@ -179,10 +187,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(3)}
+                  {"☆".repeat(2)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (50)`}</span>
               </p>
             </div>
           </div>
@@ -193,7 +205,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"view"}
                   width={20}
                   height={80}
@@ -228,10 +240,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(4)}
+                  {"☆".repeat(1)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (65)`}</span>
               </p>
             </div>
           </div>
@@ -244,7 +260,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"wislist"}
                   width={20}
                   height={80}
@@ -274,10 +290,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(2)}
+                  {"☆".repeat(3)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (45)`}</span>
               </p>
             </div>
             <div className="flex gap-2">
@@ -298,7 +318,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"view"}
                   width={20}
                   height={80}
@@ -333,10 +353,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(4)}
+                  {"☆".repeat(1)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (70)`}</span>
               </p>
             </div>
             <div className="flex gap-2">
@@ -359,7 +383,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"view"}
                   width={20}
                   height={80}
@@ -394,10 +418,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(3)}
+                  {"☆".repeat(2)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (55)`}</span>
               </p>
             </div>
             <div className="flex gap-2">
@@ -418,7 +446,7 @@ const OurProduct = () => {
             <div className="flex flex-col gap-3 absolute right-4 top-4">
               <button className="bg-white rounded-full p-2">
                 <Image
-                  src={"/icons/wishlist.svg"}
+                  src={"/icons/Wishlist.svg"}
                   alt={"view"}
                   width={20}
                   height={80}
@@ -453,10 +481,14 @@ const OurProduct = () => {
           </div>
           <div className="text-sm mt-4 space-y-2">
             <h2 className="font-bold">Breed Dry Dog Food</h2>
-            <div className="flex  gap-3">
+            <div className="flex items-center gap-3">
               <p className="text-red-500">$100</p>
               <p>
-                ⭐⭐⭐⭐⭐ <span className="text-[#7D8184]">{` (65)`}</span>
+                <span className="text-yellow-400 text-xl">
+                  {"★".repeat(3)}
+                  {"☆".repeat(2)}
+                </span>{" "}
+                <span className="text-[#7D8184]">{` (65)`}</span>
               </p>
             </div>
             <div className="flex gap-2">

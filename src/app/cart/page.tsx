@@ -10,20 +10,23 @@ export default function CartPage() {
   const { cartItems, removeFromCart, updateQuantity} = useCart();
 
   return (
-    <div className="pt-20 px-32">
+    <div className="pt-20  px-4
+      sm:px-8
+      md:px-12
+      lg:px-32">
       <div className="py-6"><a href="/" className="mb-4 ml-6 text-[#7D8184]">Home /</a> <a href="cart">Cart</a></div>
       {cartItems.length === 0 ? (
         <p className="place-self-center">Your cart is empty.</p>
       ) : (
         <div className="p-6 relative">
-          <div className="grid grid-cols-4 text-center py-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 text-center py-8 gap-4">
             <h1>Product</h1>
             <h1>Price</h1>
             <h1>Quantity</h1>
             <h1>Sub Total</h1>
           </div>
           {cartItems.map((item) => (
-            <div key={item.slug} className="grid grid-cols-4 mb-4  py-4 rounded-lg shadow-sm shadow-gray-200">
+            <div key={item.slug} className="grid grid-cols-2 lg:grid-cols-4 mb-4  py-4 rounded-lg shadow-sm shadow-gray-200">
               <div className="relative group flex items-center gap-4">
                 <button
                 onClick={() => removeFromCart(item.slug)}
@@ -54,7 +57,7 @@ export default function CartPage() {
             <Button variant={"outline"} className="py-6 px-10 border-[#7D8184]">Return To Shop</Button>
             <Button variant={"outline"} className="py-6 px-10 border-[#7D8184]">Update Cart</Button>
           </div>
-          <div className="flex mt-16">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 mt-16">
             <div className="flex-1 flex gap-6 ">
               <Input
               placeholder="Coupon Code"
@@ -65,8 +68,8 @@ export default function CartPage() {
               className="py-6 px-10 "
               >Apply Coupon</Button>
             </div>
-            <div className="flex-1 pl-32">
-              <div className="flex flex-col gap-3 w-full border-2 border-gray-600 rounded-sm p-6">
+            <div className="flex-1 lg:pl-32">
+              <div className="flex flex-col gap-3 w-full border-2 border-gray-600 rounded-sm py-6 px-28 md:px-6">
                 <h1 className="text-xl font-semibold mb-4">Cart Total</h1>
                 <div className="flex items-center justify-between">
                   <p>Subtotal</p>
